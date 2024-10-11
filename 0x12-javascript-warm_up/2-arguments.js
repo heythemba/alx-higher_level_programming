@@ -1,16 +1,13 @@
 #!/usr/bin/node
 
-let numberOfArguments = process.argv.length ;
+// A script that print a message depends on number of arguments
 
-if ( numberOfArguments <= 2)
+const numberOfArguments = process.argv.length;
 
-        {
-        console.log('Norguments');
-
-        } else if ( numberOfArguments <= 3) {
-
-                console.log('Argument found');
-
-        } else {
-                        console.log('Arguments found');
-                }
+if (numberOfArguments <= 2) {
+  console.log('No argument');
+} else if (numberOfArguments <= 3) {
+  console.log('Argument found');
+} else {
+  console.log('Arguments found');
+}
