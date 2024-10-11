@@ -2,4 +2,7 @@
 
 // A script that prints argument passed to it
 
-console.log(process.argv[2], ' is ', process.argv[3]);
+let numberArgv = [];
+numberArgv = process.argv;
+
+console.log(numberArgv[2], ' is ', numberArgv[3]);
