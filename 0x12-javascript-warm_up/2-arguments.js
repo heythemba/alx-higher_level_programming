@@ -2,11 +2,11 @@
 
 let numberOfArguments = process.argv.length ;
 
-if ( numberOfArguments > 2)
+if ( numberOfArguments <= 2)
 
         {
-        console.log('Arguments found');
+        console.log('Norguments');
 
         } else {
-                console.log('No Arguments');
+                console.log('Arguments found');
                 }
