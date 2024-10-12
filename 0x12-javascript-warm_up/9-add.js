@@ -5,8 +5,8 @@
 const firstInteger = parseInt(process.argv[2]);
 const secondInteger = parseInt(process.argv[3]);
 
-function add (value1, value2) {
-  return (value1 + value2);
+function add (a, b) {
+  return (a + b);
 }
 if (!isNaN(firstInteger) && !isNaN(secondInteger)) {
   console.log(add(firstInteger, secondInteger));
