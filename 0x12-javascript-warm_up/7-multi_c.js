@@ -7,7 +7,7 @@ let counter = 0;
 
 if (!isNaN(numberOccurance)) {
   for (counter = 0; counter < numberOccurance; counter++) {
-    console.log("C is fun");
+    console.log('C is fun');
   }
 } else {
   console.log('Missing number of occurrences');
