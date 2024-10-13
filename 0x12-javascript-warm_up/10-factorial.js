@@ -1,6 +1,6 @@
-#!/user/bin/node
+#!/usr/bin/node
 
-// A script that calculae factoriel
+// A script that calculate factoriel
 
 const fact = process.argv[2];
 
