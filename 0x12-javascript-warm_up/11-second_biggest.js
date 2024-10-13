@@ -2,7 +2,7 @@
 
 // A script that search for the second biggest number
 
-let firstbiggest = Number(process.argv[2]);
+let firstbiggest = 0;
 let secondbiggest = 0;
 let count;
 for (count = 0; count <= (process.argv.length); count++) {
