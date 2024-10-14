@@ -1,4 +1,7 @@
 #!/usr/bin/node
+
+// A script that change an onject attribute
+
 const myObject = {
   type: 'object',
   value: 12
